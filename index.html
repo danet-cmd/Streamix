@@ -21,12 +21,12 @@ h2{font-size:20px;margin:30px 0 12px;letter-spacing:-.4px}.section-head{display:
 /* Steam Mix web-app shell: mirror the Android app layout on every screen size. */
 #appHeader{position:sticky;top:0;z-index:30;display:none;max-width:100%;padding:12px clamp(15px,4vw,28px);background:rgba(8,9,13,.94);border-bottom:1px solid rgba(255,255,255,.08)}
 #appHeader .logo{display:flex;align-items:center;gap:9px;font-size:20px;letter-spacing:-.7px}.app-header-icon{width:34px;height:34px;border-radius:10px;object-fit:cover;box-shadow:0 0 18px rgba(0,221,255,.2)}
-#appLayout{display:none;max-width:980px;grid-template-columns:1fr;margin:auto}.app-shell-active #appLayout{display:block}.app-shell-active #appHeader{display:flex}.app-shell-active #appNav{display:flex}
-#appLayout .sidebar{display:none}#appLayout main{padding:18px clamp(14px,4vw,30px) 102px;min-height:calc(100vh - 60px)}
+#appLayout{display:none;width:100%;max-width:none;grid-template-columns:1fr;margin:0}.app-shell-active #appLayout{display:block;width:100%;max-width:none}.app-shell-active #appHeader{display:flex}.app-shell-active #appNav{display:flex}
+#appLayout .sidebar{display:none}#appLayout main{display:block;width:100%;max-width:100%;padding:18px clamp(14px,4vw,30px) 102px;min-height:calc(100vh - 60px)}#appLayout .view{width:100%;max-width:100%}#appLayout .hero{width:100%;max-width:none}
 #appLayout .hero{min-height:300px;border:1px solid rgba(255,255,255,.07);background:linear-gradient(90deg,rgba(8,9,13,.97),rgba(8,9,13,.56)),url('assets/steam_mix_icon.png') center/cover;box-shadow:0 18px 50px rgba(0,0,0,.25)}
 #appLayout .hero:after{background:rgba(85,231,255,.12)}#appLayout .hero h1{max-width:600px}#appLayout .poster{box-shadow:0 8px 20px rgba(0,0,0,.28)}
 #appNav{display:none;position:fixed;z-index:45;bottom:0;left:50%;transform:translateX(-50%);width:min(980px,100%);background:rgba(16,18,24,.97);backdrop-filter:blur(18px);border-top:1px solid var(--line);justify-content:space-around;padding:8px 5px calc(8px + env(safe-area-inset-bottom))}.app-shell-active #appNav button{flex:1;max-width:130px;padding:4px 2px}.app-shell-active #appNav .icon{display:block;margin:auto;font-size:19px}.app-shell-active #appNav button{font-size:11px;color:#8f94a1}.app-shell-active #appNav button.active{color:var(--accent);font-weight:800}
-@media(min-width:761px){.app-shell-active #appLayout main{padding-top:25px}.app-shell-active #appNav{border:1px solid var(--line);border-bottom:0;border-radius:18px 18px 0 0}.app-shell-active #appHeader{padding-left:max(15px,calc((100% - 980px)/2 + 15px));padding-right:max(15px,calc((100% - 980px)/2 + 15px))}.app-shell-active #appHeader .search{width:min(330px,42vw)}}
+@media(min-width:761px){.app-shell-active #appLayout main{padding-top:25px}.app-shell-active #appNav{border:1px solid var(--line);border-bottom:0;border-radius:18px 18px 0 0}.app-shell-active #appHeader{padding-left:15px;padding-right:15px}.app-shell-active #appHeader .search{width:min(330px,42vw)}}
 </style>
 </head>
 <body>
