@@ -1,0 +1,16 @@
+PONTO DE VIRADA — PACK PRIMEIRO SALÁRIO
+
+Arquivos incluídos:
+- primeiro-salario-ebook.pdf: e-book educativo com o passo a passo.
+- planilha-primeiro-salario.xlsx: orçamento mensal editável.
+- capa.svg: arte de capa do produto.
+- ebook.md: fonte editável do conteúdo.
+
+Como vender:
+1. Crie um produto digital em uma plataforma como Kiwify, Hotmart ou Eduzz.
+2. Use o preço sugerido de R$ 19,90.
+3. Envie o PDF e a planilha como arquivos de entrega.
+4. Cole o link do checkout no botão “Comprar o pack” do index.html.
+
+Importante:
+Este é um material geral e educativo. Ele não promete enriquecimento, não é recomendação de investimento e não substitui orientação profissional. Confirme valores e referências antes de atualizar o material.
